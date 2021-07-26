@@ -1,60 +1,61 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> C-62 Bootstrap</title>
-    <link href= "style.css"rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-      <!-- For using Bootstrap we need to include 3 links inside the head section of html.-->
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!--    For using Bootstrap we need to include 3 links inside the head section of html.-->
 </head>
 
 <body>
-  <div class="container">
-      <h2>
-      Click on the games below to play them
-      </h2>
-   <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-       <!--the id = My Carousel has been given just to show the effect of a Carousel ( a SLIDESHOW).. Any id can be used-->
-      <!--the class carousel slide helps to add a CSS and animation effect, which makes the items move when the next or previous buttons are clicked-->
-      <!--data-ride="carousel" tells Bootstrap to begin animating the carousel immediately when the page loads. -->
-       <div class="carousel-inner">
-       <!--class="carousel-inner" includes all the contents of the slides will be inside this div -->
-       <div class="item active"> <!-- this mentions the first slide we need to show as soon as the page loads-->
-      <center>
-          <a href= "https://studio.code.org/projects/playlab/LBT_z_BA8VqvPj7QiWF9jAzZzTftF4uteoRZWFjai10" target= "_blank">
-           <img src="thumbnail%20(1).png">
-          
-          </a>
-          <div class="carousel-content"> <!-- carousel-content means it will contain the text content of the respective slide.-->
-         
-          <h3>
-              Dragon_Atttack
-              </h3>
-          </div>
-           </center>       
-</div>
-<div class="item">
-    
-     <center>
-         <a href= "https://studio.code.org/projects/spritelab/pUQuGOGECWuBsYEF-e_1VXFMIdZDudU7eKuz8vtzPV8" target="_blank">
-           <img src="thumbnail%20copy.png">
-         </a>
-         <div class="carousel-content">
-         <h3> Winnie_The_Pooh</h3>
-         </div>
-         </center>
-           </div>
-      </div><!--Closing tag of carousel-inner-->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
-       <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
-      
- 
-        
-    
+    <div class="container">
+        <h2>
+            Click on the games below to play them
+        </h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!--the id = My Carousel has been given just to show the effect of a Carousel ( a SLIDESHOW).. Any id can be used-->
+            <!--the class carousel slide helps to add a CSS and animation effect, which makes the items move when the next or previous buttons are clicked-->
+            <!--data-ride="carousel" tells Bootstrap to begin animating the carousel immediately when the page loads. -->
+            <div class="carousel-inner">
+                <!--class="carousel-inner" includes all the contents of the slides will be inside this div -->
+                <div class="item active">
+                    <!-- this mentions the first slide we need to show as soon as the page loads-->
+                    <center>
+                        <a href="https://studio.code.org/projects/playlab/LBT_z_BA8VqvPj7QiWF9jAzZzTftF4uteoRZWFjai10" target="_blank">
+                            <img src="thumbnail%20(1).png">
 
+                        </a>
+                        <div class="carousel-content">
+                            <!-- carousel-content means it will contain the text content of the respective slide.-->
+
+                            <h3>
+                                Dragon_Atttack
+                            </h3>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+
+                    <center>
+                        <a href="https://studio.code.org/projects/spritelab/pUQuGOGECWuBsYEF-e_1VXFMIdZDudU7eKuz8vtzPV8" target="_blank">
+                            <img src="thumbnail%20copy.png">
+                        </a>
+                        <div class="carousel-content">
+                            <h3> Winnie_The_Pooh</h3>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <!--Closing tag of carousel-inner-->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right">
+                </span> </a>
+        </div>
     </div>
-    </div> <!--this is the closing tag of class container-->
+    <!--this is the closing tag of class container-->
 </body>
+
 </html>
